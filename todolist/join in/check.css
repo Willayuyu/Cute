@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    height: 650px;
+    background:transparent url(333.jpg) center center no-repeat ; 
+}
+.header{
+    margin: 30px auto 15px;
+}
+.container{
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+    background-color:rgba(216, 216, 216, 0.514)
+}
+input{
+    margin: 30px auto 0px;
+    height: 20px;
+}
+
+button{
+    margin: 30px auto 30px;
+    padding: 3px 35px;
+    background-color: rgb(92, 185, 221);
+    border: 0px;
+    font-family: sans-serif;
+    color: rgb(233, 233, 233);
+}
