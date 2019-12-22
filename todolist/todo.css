@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  background-color: rgb(238, 238, 238);
+}
+
+header {
+  height: 60px;
+  background-color: rgb(52, 105, 87);
+  text-align: center;
+}
+
+header label {
+  line-height: 60px;
+  /*设置line-height和包含块高度一致，以实现行内元素垂直居中*/
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+section {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add_list {
+  margin: 20px auto;
+  padding: 3px 10px 7px;
+  width: 300px;
+  font-size: large;
+  border: 1px solid #B8B8B8;
+}
+#add_list:focus{
+  border:1px solid rgb(50, 136, 96);
+}
+#btn1 {
+  margin: 20px auto;
+  width: 70px;
+  height: 35px;
+}
+
+.content {
+  width: 650px;
+  background-color: rgba(197, 195, 195, 0.5);
+  margin: 50px auto 30px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.success {
+  color: #5CB85C;
+}
+
+.warning {
+  color: #D9534F;
+}
+
+#todolist {
+  width: 500px;
+  margin: 20px auto;
+  border-bottom: 1px solid #8B8B8B;
+  padding-bottom: 20px;
+}
+
+#donelist {
+  width: 500px;
+  margin: 20px auto 30px;
+}
+
+#todolist li {
+  box-shadow: 5px 4px 10px 2px gray;
+  border-left: 10px #4078C0 solid;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #FFF8BF;
+  list-style: none;
+  margin-left: -40px;
+}
+
+#donelist li {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(209, 252, 181, 0.5);
+  color: #8F8F8F;
+  border-left: 10px #4078C0 solid;
+  list-style: none;
+  margin-left: -40px;
+}
+
+ol li input {
+  position: absolute;
+  top: 12.5px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+ol li p {
+  display: inline;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+ol li p input {
+  top: 15px;
+  margin-left: 35px;
+  width: 70%;
+  height: 14px;
+  font-size: 14px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+ol li a {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: inline-block;
+  border: 1px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 60px;
+  line-height: 8px;
+  color: rgb(192, 104, 104);
+  cursor: pointer;
+  background-color: rgb(214, 214, 214);
+}
+
+#clear {
+  text-align: center;
+  height: 40px;
+  padding: 20px;
+}
+
+#clearbutton {
+  background-color: rgb(89, 161, 137);
+  border-radius: 2px;
+  cursor: pointer;
+  border: 0px;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 10PX;
+  color: beige;
+}

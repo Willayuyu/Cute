@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css" >
+</head>
+
+<body>
+
+    <header>
+        <label for="add_list">My todolist !</label>
+    </header>
+    <div class="content">
+        <section>
+            <input type="text" id="add_list" name="add_list" placeholder="type here" required>
+            <button id="btn1" onclick="addTodolist()">TO DO</button>
+        </section>
+        <h3>还有 <span id="todocount" class="warning">0</span> 项未完成</h3>
+        <ol id="todolist">
+        </ol>
+        <h3>已经完成 <span id="donecount" class="success">0</span> 项</h3>
+        <ol id="donelist">
+        </ol>
+    </div>
+
+    <div id="clear">
+        <span style="white-space:pre;"> </span>
+        <button id="clearbutton">
+            全部清除
+        </button>
+    </div>
+</body>
+
+</html>
+<script src="todo.js"></script>
